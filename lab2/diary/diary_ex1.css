@@ -1,0 +1,44 @@
+.content {
+   
+    border-style:solid;
+    border-width:2px;
+    border-color:blue;
+}
+
+header {
+    border-style:solid;
+    border-width:2px;
+    border-color:green;
+}
+
+div {
+    
+    border-style:solid;
+    border-width:2px;
+    border-color: orange;
+}
+.entry {
+ 
+    border-style:solid;
+    border-width:2px;
+    border-color:lime;
+}
+
+span{
+    
+    border-style:solid;
+    border-width:2px;
+    border-color:cyan;
+}
+
+.para{
+    border-style:solid;
+    border-width:2px;
+    border-color:grey;
+}
+
+.footer{
+    border-style:solid;
+    border-width:2px;
+    border-color:magenta;
+}
