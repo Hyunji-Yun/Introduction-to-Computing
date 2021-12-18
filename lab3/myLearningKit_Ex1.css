@@ -1,0 +1,79 @@
+body{
+  background-color: antiquewhite;
+}
+* {
+  box-sizing: border-box;
+  overflow:auto;
+}
+h1{
+  text-align: center;
+}
+
+div {
+	border:1px solid grey;
+	margin-top:20px;
+}
+.pro{
+  display:flex;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+
+.problem{
+  width:90%;
+    margin:auto;
+	margin-top:20px;
+	height:80px;
+	text-align:left;
+	
+	font-family:Luminary, cursive;
+	font-size:15px;
+	padding-left:20px;
+  padding-right:20px;
+  
+  
+  }
+
+img {
+  width: 100%;
+  height: auto;
+margin-top:5px;
+padding: 2px;
+/* in Ex1, add one line here such that the img
+does not display */
+}
+.col {
+  display:flex;
+  justify-content: center;
+}
+
+[class*="column"] { 
+  width: 100%;
+  display:inline-block;
+  height:60vh;
+  text-align:center;
+  
+}
+  
+
+footer{
+  margin-top:20px;
+	text-align:center;
+	font-size:10px;
+}
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:32%;
+   
+  }
+  
+  header nav button{ 
+	width:9%;
+	font-size:1.2vw;
+  }
+}
+
