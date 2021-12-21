@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(196, 230, 230);
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 43px;
+    color:rgb(26, 25, 25);
+  }
+  
+  .pro{
+    display:flex;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  button{
+    background-color: rgb(252, 204, 211);
+    border-radius: 10px;
+    font-size: 16px;
+    
+  }
+  
+  .problem{
+    width:90%;
+      margin:auto;
+      margin-top:20px;
+      height:160px;
+      text-align:center;
+      font-size: 38px;
+      padding-left:20px;
+    padding-right:20px; 
+
+    }
+   
+  footer{
+    margin-top:20px;
+      text-align:center;
+      font-size:10px;
+      padding-top: 60px;
+  }
+  
+
+    
+    
+  
+  
